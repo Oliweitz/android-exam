@@ -1,9 +1,29 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.ExamApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <style name="Base.Theme.ExamApplication" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/blue_primary</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/blue_secondary</item>
+        <item name="colorError">@color/blue_secondary</item>
+        <item name="android:textColorPrimary">@color/blue_primary</item>
+        <item name="android:textColorSecondary">@color/blue_secondary</item>
+        <item name="android:textColorTertiary">@color/blue_secondary</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.ExamApplication" parent="Base.Theme.ExamApplication" />
+
+    <style name="ThemeOverlay.ExamApplication.Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/blue_primary</item>
+        <item name="colorOnSurface">@color/blue_primary</item>
+        <item name="colorOnSurfaceVariant">@color/blue_secondary</item>
+        <item name="android:textColorPrimary">@color/blue_primary</item>
+    </style>
 </resources>

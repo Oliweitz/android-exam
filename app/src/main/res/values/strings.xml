@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">exam application</string>
+    <string name="app_name">YangWencai 计算器</string>
+    <string name="student_title">杨文才 2024110144</string>
+    <string name="menu_history">历史记录</string>
+
+    <string name="label_first_number">第一个数</string>
+    <string name="label_second_number">第二个数</string>
+    <string name="label_operation">选择运算</string>
+    <string name="operation_add">+</string>
+    <string name="operation_subtract">-</string>
+    <string name="operation_multiply">*</string>
+    <string name="operation_divide">/</string>
+    <string name="calculate">计算</string>
+    <string name="result_label">结果</string>
+    <string name="result_placeholder">—</string>
+
+    <string name="error_first_required">请输入第一个数</string>
+    <string name="error_second_required">请输入第二个数</string>
+    <string name="error_invalid_number">请输入有效的数字</string>
+    <string name="error_choose_operation">请选择一种运算</string>
+    <string name="error_divide_by_zero">除数不能为 0</string>
+    <string name="error_calculation">无法完成计算，请检查输入</string>
+    <string name="expression_format">%1$s %2$s %3$s</string>
+
+    <string name="history_title">历史记录</string>
+    <string name="history_empty">暂无计算记录</string>
+    <string name="history_entry_format">%1$s = %2$s</string>
 </resources>
